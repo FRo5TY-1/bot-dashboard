@@ -5,7 +5,7 @@ import {
 } from "../styles/dashboard";
 import { ModuleContext } from "../utils/contexts/moduleContext";
 
-const modules = ["Welcome", "Leaderboard", "Settings"];
+const modules = ["Welcome", "Leaderboard", "Embed", "Settings"];
 
 export const ModulesComponent = () => {
   const { updateModule } = useContext(ModuleContext);

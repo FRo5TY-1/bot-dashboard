@@ -96,8 +96,7 @@ export const ModuleContainer = styled.div`
   height: 88%;
   display: inline-block;
   top: 8%;
-  left: 21%;
-  padding: 10px;
+  left: 22%;
   position: relative;
   overflow: hidden;
 `;
@@ -132,4 +131,47 @@ export const TextArea = styled.textarea`
   :focus {
     outline: 1px solid #ffffff5a;
   }
+`;
+
+export const EmbedContainer = styled.div`
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const SmallImgContainer = styled.div`
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(253, 252, 252, 0.658);
+  border-style: dashed;
+  border-radius: 50%;
+  overflow: hidden;
+  :hover {
+    border-color: blue;
+    transition: 0.5s;
+  }
+`;
+
+export const StyledInput = styled.input`
+  background-color: #24232399;
+  border-radius: 2px;
+  padding: 10px;
+  font-size: 18px;
+  display: inline-block;
+  width: 60%;
+`;
+
+export const StyledTextArea = styled.textarea`
+  background-color: #24232399;
+  border-radius: 2px;
+  padding: 10px;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  font-size: 18px;
+  min-height: 18px;
+  display: inline-block;
+  resize: none;
+  width: 60%;
 `;
